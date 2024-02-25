@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creá tu cuenta :)</title>
+</head>
+<body>
+    <div class="container-form">
+        <form action="/register.html" method="post">
+            <div class="name">
+                <label>Nombre y Apellido: 
+                    <input type="text" required>
+                </label>
+            </div>
+            <div class="username">
+                <label>Nombre de usuario: 
+                    <input type="text" required>
+                </label>
+            </div>
+            <div class="email">
+                <label>E-mail: 
+                    <input type="email" required>
+                </label>
+            </div>
+            <div class="date-birth">
+                <label>Fecha de nacimiento: 
+                    <input type="date" required>
+                </label>
+            </div>
+            <div class="adress">
+                <label>Domicilio: 
+                    <input type="text" required>
+                </label>
+            </div>
+            <div class="user-profile">
+                <label>
+                    <input type="radio" name="tipoPerfil">Quiero vender
+                </label>
+                <label>
+                    <input type="radio" name="tipoPerfil">Quiero comprar
+                </label>
+            </div>
+            <div class="categories-interests">
+                <label>Tus intereses
+                    <input type="checkbox" name="interes">Electro
+                </label>
+                <label>
+                    <input type="checkbox" name="interes">Moda
+                </label>
+                <label>
+                    <input type="checkbox" name="interes">Hogar
+                </label>
+                <label>
+                    <input type="checkbox" name="interes">Juguetería
+                </label>
+                <label>
+                    <input type="checkbox" name="interes">Vida sana
+                </label>
+            </div>
+            <div class="user-pic">
+                <label>Sonrie :)
+                    <input type="file" accept=".jpg , .png">
+                </label>
+            </div>
+            <div class="password">
+                <label>Creá una contraseña: 
+                    <input type="password" required>
+                </label>
+            </div>
+            <div class="confirm-password">
+                <label>Repite tu contraseña: 
+                    <input type="password" required>
+                </label>
+            </div>
+            <div class="submit">
+                <label>
+                    <a href="/home.html"><input type="submit"></a>
+                </label>
+            </div>
+            <div class="delete">
+                <label>
+                    <input type="reset">
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
