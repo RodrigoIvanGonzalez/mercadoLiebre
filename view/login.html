@@ -9,16 +9,53 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="main__header">
+        <div class="main__header-top-bar">
+            <img src="/img/logo-mercado-liebre.svg" class="logo">
+            <div class="container-search-bar">
+            <form action="" method="get">
+                <label >
+                <input class="search-bar" type="search" placeholder="Buscar productos, marcas">
+                </label>
+            </form>
+        </div>
+        <div class="copy-header">
+            <p class="copy-header"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        </div>
+        <nav class="container-nav">
+                <ul class="left__nav-bar">
+                    <li class="nav__bar-li"><a href="*">Ofertas</a></li>
+                    <li class="nav__bar-li"><a href="*">Tiendas Oficiales</li></a>
+                    <li class="nav__bar-li"><a href="*">Vender</li></a>
+                    <li class="nav__bar-li"><a href="*">Ayuda</li></a>
+                </ul>
+
+                <ul class="rigth__nav-bar">
+                    <li class="nav__user-li"><a href="/register.html">Crea tu cuenta<i class="fa-regular fa-address-card"></i></li></a>
+                    
+                    <li class="nav__user-li"><a href="/login.html"></li>Ingresa<i class="fa-solid fa-right-to-bracket"></i></a>
+                    
+                    <li class="nav__user-li"><a href="*"></li>Mis compras<i class="fa-solid fa-basket-shopping"></i></a>
+                    
+                </ul>
+            </nav>
+        
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    
+    </header>
 <div class="container-form">
     <form action="login.html" method="post">
         <div class="username">
-            <label>Nombre de usuario
-                <input type="text" required>
+            <label>
+                <input type="text" placeholder="Usuario" required>
             </label>
         </div>
         <div class="password">
-            <label>Contraseña
-                <input type="password" required>
+            <label>
+                <input type="password" placeholder="Contraseña" required>
             </label>
         </div>
         <div class="submit">
@@ -28,5 +65,31 @@
         </div>
     </form>
 </div>
+<footer>
+    <section class="footer">
+        <article class="pago">
+            <i class="fa-solid fa-credit-card"></i>
+                <h4>Pagá con tarjeta o en efectivo</h4>
+                    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                        puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+
+        <article class="envio">
+            <i class="fa-solid fa-gift"></i>
+                <h4>Envío gratis desde $ 2.500</h4>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                        productos. Es un beneficio de Mercado Puntos.</p>
+        </article>
+
+        <article class="seguridad">
+            <i class="fa-solid fa-user-shield"></i>
+                <h4>Seguridad de principio a fin</h4>
+                    <p>¿No te gusta?¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@</p>
+        </article>
+        <article class="copy">
+            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </article>
+    </section>
+    </footer>
 </body>
 </html>
