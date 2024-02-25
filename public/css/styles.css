@@ -260,12 +260,7 @@ p.descripcion {
 }
 .left__nav-bar{
   display: flex;
-
-  }
-
-.burger-menu {
-  display: none;
-  }
+}
 
 p.descripcion {
   display: inline-block;
@@ -284,11 +279,6 @@ p.descripcion {
 }
 
 @media (min-width: 996px) /*Desktop*/{
-
-.producto__contenedor{
-  flex-wrap: nowrap;
-  }
-
 .logo{
   width: 33%;
   margin: 20px;}
@@ -303,6 +293,9 @@ p.descripcion {
   margin-left: 15px ;
   padding-left: 15px;
 }
+.producto__contenedor{
+  flex-wrap: nowrap;
+  }
 .footer{
   display: flex;
   flex-wrap: wrap;
@@ -315,7 +308,6 @@ p.descripcion {
   margin: 10px;
   padding:15px;
   width: 25%
-  
 }
 .copy{
   width: 35%;
