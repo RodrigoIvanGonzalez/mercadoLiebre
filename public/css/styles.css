@@ -113,7 +113,7 @@ h2.titular {
 
 .producto__info {
   position: relative;
-}
+} 
 
 .producto {
   text-align: center;
@@ -189,7 +189,7 @@ p.descripcion {
   text-align: center;
 }
 
-@media (min-width: 361px) {
+@media (min-width: 361px) /*Smart*/ {
 
 .logo{
   width: 33%;
@@ -232,7 +232,7 @@ p.descripcion {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) /*Tablet*/ {
 .main__header-top-bar {
   display: flex;
   justify-content: space-between;
@@ -283,7 +283,7 @@ p.descripcion {
   border-bottom: none;
 }
 
-@media (min-width: 996px){
+@media (min-width: 996px) /*Desktop*/{
 
 .producto__contenedor{
   flex-wrap: nowrap;
@@ -299,7 +299,10 @@ p.descripcion {
 .copy-header  {
   width: 33.3%;
 }
-
+.descuento{
+  margin-left: 15px ;
+  padding-left: 15px;
+}
 .footer{
   display: flex;
   flex-wrap: wrap;
