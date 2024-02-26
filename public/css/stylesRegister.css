@@ -10,11 +10,9 @@ header{
 }
 .container-form{
     background-color: #ebebeb;
-    width: 100%;
-    text-align: center;
     justify-content: space-between;
     padding: 20px;
-    margin: auto;
+    text-align: center;
 
 }
 
@@ -24,12 +22,12 @@ header{
     padding: 5px;
     border: 1px solid #ebebeb;
     border-radius: 3px;
-    margin: 10px;
+    margin: 10px; 
+    outline: none;
 }
 
 
 h4{
-    text-align: center;
     margin: auto;
 }
 
@@ -39,15 +37,18 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
-.categories-interests-container {
+.categories-interests{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
-    margin: 5px;
-    padding: 5px;
-    width: 80%;
+    align-items: center;
 }
+.categories-interests input{
+    width: 45%;
+}
+.categories-interests label{
+    width: 45%;
+}
+
 .submit{
     width: 70%;
     margin: auto; 
