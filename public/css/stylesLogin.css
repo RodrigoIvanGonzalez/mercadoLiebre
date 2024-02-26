@@ -7,10 +7,6 @@ header{
     background-color: #eac926;
 }
 
-.header-logo{
-    background-color: #eac926;
-}
-
 .main__header-top-bar {
     display: flex;
     flex-wrap: wrap; 

@@ -9,33 +9,40 @@
     <title>Creá tu cuenta :)</title>
 </head>
 <body>
+    <header>
+        <div class="main-header">
+            <a href="/view/home.html"><img src="/img/logo-mercado-liebre.svg" alt=""></a>
+        </div>
+    </header>
+    <main>
     <div class="container-form">
         <form action="/register.html" method="post">
             <div class="name">
-                <label>Nombre y Apellido: 
-                    <input type="text" required>
+                <label>
+                    <input type="text" placeholder="Nombre y Apellido" required>
                 </label>
             </div>
             <div class="username">
-                <label>Nombre de usuario: 
-                    <input type="text" required>
+                <label> 
+                <input type="text" placeholder="Nombre de usuario" required>
                 </label>
             </div>
             <div class="email">
-                <label>E-mail: 
-                    <input type="email" required>
+                <label>
+                    <input type="email" placeholder="E-mail " required>
                 </label>
             </div>
             <div class="date-birth">
-                <label>Fecha de nacimiento: 
+                <label><h4>Fecha de nacimiento </h4>
                     <input type="date" required>
                 </label>
             </div>
             <div class="adress">
-                <label>Domicilio: 
-                    <input type="text" required>
+                <label> 
+                    <input type="text" placeholder="Domicilio" required>
                 </label>
             </div>
+            <h4>Perfil del usuario</h4>
             <div class="user-profile">
                 <label>
                     <input type="radio" name="tipoPerfil">Quiero vender
@@ -44,36 +51,38 @@
                     <input type="radio" name="tipoPerfil">Quiero comprar
                 </label>
             </div>
+            <h4>Intereses</h4>
             <div class="categories-interests">
-                <label>Tus intereses
-                    <input type="checkbox" name="interes">Electro
+                
+                <label class="categories-interests-container">
+                    <input type="checkbox" name="interes"><p class="description">Electro</p>
                 </label>
-                <label>
-                    <input type="checkbox" name="interes">Moda
+                <label class="categories-interests-container">
+                    <input type="checkbox" name="interes"><p class="description">Moda</p>
                 </label>
-                <label>
-                    <input type="checkbox" name="interes">Hogar
+                <label class="categories-interests-container">
+                    <input type="checkbox" name="interes"><p class="description">Hogar</p>
                 </label>
-                <label>
-                    <input type="checkbox" name="interes">Juguetería
+                <label class="categories-interests-container">
+                    <input type="checkbox" name="interes"><p class="description">Juguetería</p>
                 </label>
-                <label>
-                    <input type="checkbox" name="interes">Vida sana
+                <label class="categories-interests-container">
+                    <input type="checkbox" name="interes"><p class="description">Vida sana</p>
                 </label>
             </div>
             <div class="user-pic">
-                <label>Sonrie :)
-                    <input type="file" accept=".jpg , .png">
+                <label><h4>Sonrie :)</h4>
+                <input type="file" accept=".jpg , .png">
                 </label>
             </div>
             <div class="password">
-                <label>Creá una contraseña: 
-                    <input type="password" required>
+                <label>
+                    <input type="password" placeholder="Creá una contraseña" required>
                 </label>
             </div>
             <div class="confirm-password">
-                <label>Repite tu contraseña: 
-                    <input type="password" required>
+                <label>
+                    <input type="password" placeholder="Repite tu contraseña" required>
                 </label>
             </div>
             <div class="submit">
@@ -81,12 +90,13 @@
                     <a href="/home.html"><input type="submit"></a>
                 </label>
             </div>
-            <div class="delete">
+            <div class="submit">
                 <label>
                     <input type="reset">
                 </label>
             </div>
         </form>
     </div>
+</main>
 </body>
 </html>
