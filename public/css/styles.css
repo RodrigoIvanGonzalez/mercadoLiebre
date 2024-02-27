@@ -7,7 +7,6 @@
 body {
   font-family: "roboto", sans-serif;
 }
-
 header {
   display: block;
   background-color: #eac926;
@@ -18,9 +17,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-
 }
-
 .logo {
   width: 50%;
   padding: 5px;
@@ -28,11 +25,25 @@ header {
 .container-search-bar {
   width: 50%;
 }
-
+.container-search-bar input{
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 3.5px;
+}
+.icon{
+  background-color: white;
+  padding: 6px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  align-items: center;
+  margin: -8px;
+}
 input{
   max-width: 125px;
 }
-
 .copy-header {
   min-width: 150px;
   text-align: center;
@@ -42,7 +53,6 @@ input{
   font-size: 12px;
   flex: 1  ;
 }
-
 .container-nav {
   display: none;
   width: 100%;
@@ -59,17 +69,14 @@ input{
   padding: 5px 0px;
   font-size: 17px;
 }
-
 .main {
   background-color: #ebebeb;
   /* width: 90%; */
   margin: 0 auto;
 }
-
 .banner img {
   width: 100%;
 }
-
 .burger-menu {
   display: block;
   text-align: center;
@@ -82,21 +89,16 @@ input{
   padding: 8px;
   border-radius: 10%;
 }
-
-
 h2.titular {
   margin: 0;
   font-size: 24px;
 }
-
 .producto__contenedor {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 5px;
 }
-
-
 .producto__info > .producto__borde-icono {
   display: block;
   font-size: 16px;
