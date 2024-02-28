@@ -113,6 +113,9 @@ label{
     color: white;
     padding: 10px;
 }
+.submit input:hover{
+    background-color: #0022AA;
+}
 
 
 .footer i {
@@ -129,7 +132,7 @@ label{
 
 @media (min-width: 361px) /*Smart*/ {
 
-.logo{
+.logo a{
 width: 33%;
 }
 .container-search-bar{
@@ -190,7 +193,7 @@ display: flex;
 }
 
 @media (min-width: 996px) /*Desktop*/{
-.logo{
+.logo a{
 width: 33%;
 margin: 20px;}
 .container-search-bar{
