@@ -239,7 +239,7 @@ p.descripcion {
 p.descripcion:hover{
   color:#666
 }
-.producto {
+.producto:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 }
@@ -280,9 +280,9 @@ p.descripcion {
 
 .producto {
   flex: 1 1 45%; 
-  box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
-}
+  /* box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  } */
+}}
 .precio-descuento{
   margin-bottom: 15px;
 }
